@@ -1,3 +1,14 @@
+//This is google chat webhook that sends daily nuggets from google sheet
+//Google sheet should be
+//a1 = title
+//b1 = description
+//c1 = installation and usage
+//d1 = image link (must be uploaded to a google drive)
+//e1 = additional link
+//and so on
+//Once the next row is empty it will loop back to row 1 
+
+
 function webhook_DailyNuggets() {
   const webhookUrl = "YOUR-GOOGLE-CHAT-WEBHOOKURL"; 
   const spreadsheetId = "SPREADSHEET_ID_URI";
