@@ -1,5 +1,7 @@
 //this is google chat webhook that fetches the last three posts in the netsec room of reddit
 //and forwards to your google chat bot
+//it will send the three most recent post and get the link of the shared link
+//then it will output a short description
 
 function Reddit_sendToGoogleChat() {
   const subreddit = "netsec";
